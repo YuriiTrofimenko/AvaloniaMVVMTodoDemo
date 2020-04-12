@@ -8,5 +8,5 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="AvaloniaMVVMTodoDemo"
         xmlns:views="clr-namespace:AvaloniaMVVMTodoDemo.Views"
-        Content="{Binding List}">
+        Content="{Binding Content}">
 </Window>
