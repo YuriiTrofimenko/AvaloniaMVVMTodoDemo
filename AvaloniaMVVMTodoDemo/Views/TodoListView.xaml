@@ -18,5 +18,11 @@
         </DataTemplate>
       </ItemsControl.ItemTemplate>
     </ItemsControl>
+    <TextBlock
+      IsVisible="{Binding !Items.Count}"
+      VerticalAlignment="Center"
+      HorizontalAlignment="Center">
+      Add the First TODO Item
+    </TextBlock>
   </DockPanel>
 </UserControl>
