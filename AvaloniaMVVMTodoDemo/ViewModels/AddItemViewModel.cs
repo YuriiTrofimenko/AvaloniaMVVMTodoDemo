@@ -18,7 +18,7 @@ namespace AvaloniaMVVMTodoDemo.ViewModels
                 x => !string.IsNullOrWhiteSpace(x));
 
             Ok = ReactiveCommand.Create(
-                () => new TodoItem { Description = Description },
+                () => new TodoItem { Description = this.Description },
                 okEnabled);
             Cancel = ReactiveCommand.Create(() => { });
         }

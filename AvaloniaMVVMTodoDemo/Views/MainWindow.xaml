@@ -9,4 +9,9 @@
         Title="AvaloniaMVVMTodoDemo"
         xmlns:views="clr-namespace:AvaloniaMVVMTodoDemo.Views"
         Content="{Binding Content}">
+  <Window.Styles>
+    <Style Selector=":is(ContentControl)">
+      <Setter Property="FontSize" Value="24"/>
+    </Style>
+  </Window.Styles>
 </Window>

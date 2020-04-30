@@ -22,9 +22,10 @@
     <None Remove="Views\TodoListView.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.9.0" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.9.0" />
-    <PackageReference Include="Avalonia.ReactiveUI" Version="0.9.0" />
+    <PackageReference Include="Avalonia" Version="0.9.6" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.9.6" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="0.9.6" />
+    <PackageReference Include="MessageBox.Avalonia" Version="0.9.6.1" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\TodoListView.xaml">
